@@ -1,0 +1,35 @@
+.player__sidebar {
+  flex: 0.25;
+  height: 100vh;
+  background-color: #040404;
+  color: white;
+  min-width: 206px;
+  overflow-y:overlay;
+}
+.player__sidebar::-webkit-scrollbar{
+  display: none;
+}
+
+.player__sidebar > img {
+  width: 20vw;
+  height: 20vh;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+hr {
+  width: 90%;
+  margin-left: 10px;
+  border: 0.01px solid grey;
+margin-bottom: 10px;
+}
+
+.player__sidebar > h4{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    padding: 6px 10px;
+
+}
+
+

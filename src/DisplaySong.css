@@ -1,0 +1,34 @@
+.displaySong {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  background: rgba(2,2,0,0.2);
+  border-bottom:1px solid rgb(29, 11, 4);
+  padding:10px;
+
+}
+.displaySong:hover{
+  background: rgba(32, 175, 27, 0.15);
+  cursor: pointer;
+
+}
+
+.song__left {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.song__left .song__banner > img{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.song__left .song__info{
+    justify-content: center;
+}
+.song__right {
+font-size: 14px;
+
+}

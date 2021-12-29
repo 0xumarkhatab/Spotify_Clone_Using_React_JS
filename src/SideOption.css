@@ -1,0 +1,26 @@
+.sideOption{
+    display: flex;
+    color:grey;
+    margin-bottom: 10px;
+}
+.sideOption:hover{
+    cursor: pointer;
+    color: white;
+    transition: 400ms ease-in;
+    
+}
+.sideOption > h4{
+    margin-left: 6px;
+    margin-top: 4px;
+}
+.sideOption > p{
+   text-align: center;
+   justify-content: center; 
+}
+.favorite{
+    background: rgba(235, 17, 170, 0.7);
+    color:white;
+    border-radius: 10px;
+
+}
+

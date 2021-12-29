@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px;
+  background: rgba(3, 1, 1, 0.712);
+  position: fixed;
+  width: 100%;
+
+}
+
+.header__left {
+    
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  width: 6vw;
+  min-width: 70px;
+  border-radius: 30px;
+  color: grey;
+  padding: 10px;
+  background-color: white;
+  height: fit-content;
+  width:50%;
+}
+.header__left > input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.header__right {
+  display: flex;
+  background: rgba(8, 1, 1, 0.712);
+  border: 1px solid darkslategray;
+  border-radius: 50%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+  justify-content: center;
+  height: fit-content;
+  font-size: 14px;
+  margin-right: 25%;
+  
+}
+.header__right:hover {
+  background: rgba(73, 70, 70, 0.712);
+  cursor: pointer;
+}
+.header__right > h4 {
+  margin: 10px 0px;
+  color: white;
+  margin-left: 10px;
+}
+.avatar {
+  margin-top: 4px;
+  object-fit: contain;
+  width: 4vw;
+  height: 4vh;
+}
+.header__right > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  margin-right: 20px;
+  color: white;
+}

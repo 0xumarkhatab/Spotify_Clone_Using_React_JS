@@ -1,0 +1,57 @@
+.player__body{
+    flex:0.75;
+    height: 100vh;
+    background-color:rgb(91,87,115) ;
+    background:linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
+    overflow-y:overlay ;
+    width: 100vw;
+    margin-bottom: 13vh;
+
+}
+.player__body::-webkit-scrollbar{
+    display: none;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+
+}
+.player__center{
+    margin-top:20vh;
+    display: flex;
+    color:white;
+    margin-left: 0;
+
+
+}
+.player__center .photo >img{
+    margin-left: 10vw;
+    margin-right: 2vw;
+    width: 20vw;
+    min-height: 200px;
+    
+    object-fit: contain;
+
+}
+
+.player__center__content{
+    margin-top: 10%;
+    
+
+}
+.player__center__title{
+    font-size: 8vh;
+}
+.player__center__description{
+    align-items: center;
+    display: flex;
+    
+}
+.player__center__description .playlist__info
+{
+    margin-left: 10px;
+    font-size: 2.15vw;
+
+    
+}
+
+
+

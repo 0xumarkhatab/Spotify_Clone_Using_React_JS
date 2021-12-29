@@ -1,0 +1,38 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.login > img{
+    object-fit: contain;
+    height:60vh;
+    width: 60vw;
+
+
+}
+
+.login > a{
+    padding:10px 10px;
+    
+    font-size: 16px;
+    background-color: #1db954;
+    border-radius: 90px;
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    width: 28vw;  
+    min-width: 28vw;
+    text-align: center;
+    padding: 17px;
+
+}
+.login > a:hover{
+    color:white;
+    transition: 200ms transform ease-in-out;
+    transform: scale(1.08);
+}
+
+
